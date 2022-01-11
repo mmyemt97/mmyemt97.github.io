@@ -1,0 +1,39 @@
+html {
+  background-color: #152238;
+}
+
+.c-main {
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.c-main__title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.c-main__button {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+.c-main__link {
+  background-color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  color: #152238;
+  letter-spacing: 1px;
+  line-height: 40px;
+  display: block;
+  width: 200px;
+  border-radius: 100px;
+  transition: 500ms;
+}
+
+.c-main__link:hover {
+  background-color: #e3a9ff;
+  color: #fff;
+  transform: scale(1.2);
+}
