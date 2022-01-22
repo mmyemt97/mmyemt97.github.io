@@ -22,7 +22,7 @@ var $checkInterval;
                 $imgSrc = './img/'+$selectedImg;
                 $(this).attr('src',$imgSrc);
             });
-        },30)
+        },0)
     }
   })
 
